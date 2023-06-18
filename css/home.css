@@ -6,14 +6,20 @@
 }
 body{
     font-family: Samim-FD;
-    background: url(/img/bg-banner.jpg) ;
-    background-attachment: fixed;
+   
+   
 }
 @font-face {
     font-family:Samim-FD ;
     src: url(/fonts/Samim-FD.woff);
 }
 .continer{
+    width: 1500px;
+    background: url(/img/bg-banner.jpg) no-repeat  center/cover ;
+    background-attachment: fixed;
+    
+}
+.continer12{
    width: 100%;
    height: 635px;
    background:linear-gradient(rgb(58, 107, 58),rgba(58, 107, 58, 0.253)) ;
@@ -311,5 +317,29 @@ td{
     margin-bottom: 20px;
     box-shadow: 3px 3px 3px crimson;
  }
+ /* aboutus*/
 
+ .abouttext{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(41, 40, 40);
+    
+ }
+.aboutus{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 
+}
+.aboutus h1{
+    color: aliceblue;
+    font-size: 30px;
+    margin: 120px;
+    margin-right: 650px;
+}
+.aboutus p{
+    color: aliceblue;
+    font-size: 15px;
+    margin: 120px;
+    margin-left: 750px;
+    width: 50%;
+}
