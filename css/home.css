@@ -1,0 +1,315 @@
+*{
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Samim-FD;
+    background: url(/img/bg-banner.jpg) ;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family:Samim-FD ;
+    src: url(/fonts/Samim-FD.woff);
+}
+.continer{
+   width: 100%;
+   height: 635px;
+   background:linear-gradient(rgb(58, 107, 58),rgba(58, 107, 58, 0.253)) ;
+   text-decoration: none;
+}
+
+
+/* nav-bar*/
+.nav-bar{
+    position:fixed;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(141, 83, 196);
+    text-shadow: 50px 50px 50px rgb(4, 224, 33);
+    z-index: 3000;
+    
+}
+.nav-bar ul li{
+display: inline-block;
+color: #f80404;
+padding-left: 15px;
+font-size: 15px;
+font-weight: 300;
+margin-top: 30px;
+position:relative ;
+left:900px ;
+right: 130px;
+
+}
+.nav-bar a{
+    text-decoration: none;
+}
+.nav-bar a:hover{
+
+background-color: cornsilk;
+    box-shadow: 20px 20px 20px rgb(19, 18, 18);
+   
+}
+
+.logo{
+    position: relative;
+    float: left;
+    width: 120px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+/*header*/
+
+header{
+    text-align: center;
+    padding-top: 250px;
+}
+header h1{
+    font-size: 35px;
+    color: rgb(14, 13, 13);
+    padding: 15px 0 15px ;
+    text-shadow: 1px 1px 1px rgb(207, 105, 2);
+}
+header p{
+    font-size: 19px;
+    color: rgb(14, 13, 13);
+    padding:0px 0 15px ;
+    text-shadow: 1px 1px 1px rgb(226, 175, 6);
+}
+header a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(245, 249, 252);
+    padding:10px 25px ;
+    border-radius: 5px;
+    background-color: blueviolet;
+    box-shadow: 3px 3px 5px crimson;
+    
+   
+}
+header a:hover{
+    background-color: brown;
+  
+   
+}
+
+/*service*/
+.my-continer{
+    background-color: cornsilk;
+    z-index: 2;
+    
+ 
+}
+.my-continer1{
+    display:grid;
+    grid-template-columns: repeat(3,345px);
+    grid-template-rows: repeat(3,233px);
+   
+}
+.item{
+    position: relative;
+    right: 150px;
+    top:180px;
+    padding: 5px 10px 10px 10px;
+    font-size: 15px;
+    
+
+}
+    
+.item img{
+    padding-bottom: 20px;
+}
+.item p{
+    
+    color: #331a1a;
+    font-size: 15px;
+    
+    line-height: 20px;
+}
+.item h4{
+    
+    color: #805f5f;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+ .item3 h4{
+    font-size: 75px;
+}
+hr{
+    height: 3px;
+    width: 60px;
+    background-color: rgb(202, 140, 7);
+    position: relative;
+    border: 0;
+    margin: 20ox 0 20px 0;
+}
+
+/*table*/
+table, td{
+    border: 1px solid rgb(55, 185, 50);
+    border-collapse: collapse;
+}
+td{
+    color: antiquewhite;
+    border: 0 solid cornsilk;
+    background-color: cadetblue;
+    border-top: 1px solid rgb(216, 216, 216);
+    padding: 2px 50px 2px 45px;
+}
+.table{
+    display: grid;
+    grid-template-columns: repeat(3,395px);
+    grid-template-rows: repeat(3,253px);
+    gap:1px;
+    margin-top: 120px;
+    margin-right: 80px;
+   
+}
+.itemintable{
+    position: relative;
+    right: 30px;
+    background-color: rgb(91, 148, 124);
+    padding: 0 10px 10px 10px;
+    font-size: 15px;
+    text-align: center;
+}
+.itemintable h4{
+ color: rgb(68, 67, 67);
+ text-align: right;
+ padding: 30px 0 10px 10px;
+ font-size: 22px;
+
+} 
+.itemintable a{
+    text-decoration: none;
+    color: rgb(57, 4, 248);
+    
+    border: 1px solid cornsilk;
+    background-color: rgb(206, 98, 112);
+    padding: 5px;
+    position: absolute;
+    right: 15px;
+    bottom: 25px;
+
+}
+.table p{
+    color: antiquewhite;
+    font-size: 14px;
+}
+
+/* about*/
+.continerabout{
+    position: relative;
+    bottom: 300px;
+}
+.conect{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+.about h1{
+    position: relative;
+    margin-right: 170px;
+
+}
+.continerabout hr{
+    position: relative;
+    margin-right: 170px;
+    margin-bottom: 25px;
+}
+.box-imag{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    position: relative;
+    right: 50px;
+}
+
+.imag{
+    border: 1px solid cornsilk;
+    width: 265px;
+    height: 400px;
+}
+.img2{
+    width: 250px;
+    height: 250px;
+}
+ .imag image{
+    width: 252px;
+    padding: 5px;
+ }
+ .imag li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left:10px ;
+    position: relative;
+    right: 50px;
+ }
+ .imag h2{
+    padding: 10px;
+ }
+ .imag p{
+    pa
+    dding: 10px;
+ }
+
+
+  /*text-menu*/
+ 
+  .continer-text{
+    background-color: rgb(211, 180, 240);
+  }
+
+ .continer-text h1{
+    position: relative;
+    margin-right: 80px;
+
+}
+.continer-text hr{
+    position: relative;
+    margin-right: 80px;
+    margin-bottom: 25px;
+}
+  .text-menu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    width: 1200px;
+  }
+  .details{
+    width: 360px;
+    position: relative;
+    right: 80px;
+  }
+  .details p{
+    color: #581717;
+  }
+ .personinfo img{
+    float: left;
+    width: 50px;
+    position: relative;
+    bottom: 50px;
+ }
+ .traing{
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid cornsilk;
+    position: relative;
+    bottom: 20px;
+    right: 300px;
+ }
+ .textin{
+    background-color: cornsilk;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 3px crimson;
+ }
+
+
