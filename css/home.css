@@ -19,7 +19,7 @@ body{
     position:fixed;
     display: flex;
     align-items: end;
-    margin-top: 600px;
+    margin-top: 480px;
     margin-left: 1400px;
 }
 @font-face {
@@ -401,6 +401,7 @@ td{
     padding: 12px 24px;
     margin-bottom: 130px;
     text-decoration: none;
+    box-shadow:2px 2px 3px #490b0b;
 
 }
 
