@@ -221,7 +221,7 @@ td{
 
 .about h1{
     position: relative;
-    margin-right: 170px;
+    margin-right: 150px;
 
 }
 .continerabout hr{
@@ -336,7 +336,7 @@ td{
     color: aliceblue;
     font-size: 30px;
     margin: 120px;
-    margin-right: 550px;
+    margin-left:-350px;
 }
 .aboutus p{
     color: aliceblue;
@@ -347,4 +347,79 @@ td{
 }
 
 /*contact*/
+
+.contant{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1300px;
+    position: relative;
+    right: 150px;
+    gap: 25px;
+}
+.continercontact h2 , .continercontact hr{
+    margin-right: 150px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 27px;
+}
+.contant h3{
+    font-size: 25px;
+    padding: 10px 0 35px 0;
+}
+
+.contantform input{
+    width: 550px;
+    height: 40px;
+   border: 2px solid rgb(187, 116, 134);
+   box-shadow: 2px 5px 5px rgb(15, 12, 13);
+} 
+.contantform textarea{
+    width: 550px;
+    margin-top: 50px; 
+    margin-bottom: 30px;
+    border: 2px solid rgb(187, 116, 134);
+   box-shadow: 2px 5px 5px rgb(15, 12, 13);
+   resize: none;
+} 
+.contantform a{
+    background-color: blue;
+    color: cornsilk;
+    font-size: larger;
+    padding: 12px 24px;
+    margin-bottom: 130px;
+    text-decoration: none;
+
+}
+
+.contantinfo{
+    margin-right: 100px;
+}
+.contantinfo p{
+    color: rgb(48, 43, 43);
+    font-size: 17px;
+    padding-bottom: 25px;
+    margin-top: 10px;
+}
+.contanticon ul{
+    margin-top: 100px;
+   
+}
+.contanticon ul li{
+    margin-top: 8px;
+    font-size: 30px;
+   
+}
+
+
+/*footer*/
+
+.footer{
+    margin-top: 150px;
+    background-color: rgb(117, 26, 114);
+}
+.fff{
+    width: 80px;
+    height: 100px;
+    padding: 15px;
+}
 
