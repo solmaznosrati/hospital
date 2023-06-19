@@ -211,6 +211,7 @@ td{
 .continerabout{
     position: relative;
     bottom: 300px;
+    margin-top: -150px;
 }
 .conect{
     width: 25px;
@@ -260,7 +261,7 @@ td{
     padding: 10px;
  }
  .imag p{
-    pa
+   
     dding: 10px;
  }
 
@@ -269,6 +270,7 @@ td{
  
   .continer-text{
     background-color: rgb(211, 180, 240);
+    margin-top:-150px;
   }
 
  .continer-text h1{
@@ -320,9 +322,9 @@ td{
  /* aboutus*/
 
  .abouttext{
-    width: 100%;
-    height: 300px;
+   
     background-color: rgb(41, 40, 40);
+    margin-top: 50px;
     
  }
 .aboutus{
@@ -334,12 +336,15 @@ td{
     color: aliceblue;
     font-size: 30px;
     margin: 120px;
-    margin-right: 650px;
+    margin-right: 550px;
 }
 .aboutus p{
     color: aliceblue;
     font-size: 15px;
     margin: 120px;
-    margin-left: 750px;
-    width: 50%;
+    margin-left: 650px;
+    width: 360px;
 }
+
+/*contact*/
+
