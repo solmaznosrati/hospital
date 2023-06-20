@@ -19,8 +19,8 @@ body{
     position:fixed;
     display: flex;
     align-items: end;
-    margin-top: 480px;
-    margin-left: 1400px;
+    margin-top: 633px;
+    margin-right: 1400px;
 }
 @font-face {
     font-family:Samim-FD ;
@@ -65,11 +65,21 @@ right: 130px;
 .nav-bar a{
     text-decoration: none;
 }
-.nav-bar a:hover{
+.nav-bar li a:hover{
 
-background-color: cornsilk;
-    box-shadow: 20px 20px 20px rgb(19, 18, 18);
+    background-color: azure;
+    box-shadow: 30px 30px 30px rgb(39, 38, 37);
+     border-radius: 15px;
+     padding: 12px;
    
+    
+}
+.nav-bar li :hover{
+
+   
+  
+     width: 130px;
+     height: 70px;
 }
 
 .logo{
@@ -107,10 +117,10 @@ header a{
     background-color: blueviolet;
     box-shadow: 3px 3px 5px crimson;
     
-   
 }
 header a:hover{
     background-color: brown;
+   
   
    
 }
